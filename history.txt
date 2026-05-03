@@ -245,3 +245,19 @@
   245  ls
   246  cd history
   247  history > history.txt
+  248  nano history.txt
+  249  git add history.txt
+  250  git status
+  251  git commit
+  252  git push origin main
+  253  exit
+  254  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
+  255  sudo nano /etc/nginx/sites-available/wordpress
+  256  ls /etc/ssl/certs/
+  257  ls /etc/ssl/private/
+  258  sudo ls /etc/ssl/private/
+  259  sudo nano /etc/nginx/sites-available/wordpress
+  260  sudo nginx -t
+  261  sudo systemctl restart nginx
+  262  cd history
+  263  history > history.txt

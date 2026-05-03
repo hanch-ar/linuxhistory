@@ -261,3 +261,13 @@
   261  sudo systemctl restart nginx
   262  cd history
   263  history > history.txt
+  264  git add history.txt
+  265  git status
+  266  git commit -m "Selfsigned cert added"
+  267  git push origin main
+  268  git pull origin main
+  269  ls
+  270  rm history.txt
+  271  ls
+  272  rm my_history.txt
+  273  history > history.txt

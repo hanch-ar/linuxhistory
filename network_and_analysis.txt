@@ -1,0 +1,123 @@
+  458  cat /etc/ssh/sshd_config
+  459  cat /etc/ssh/sshd_config.d/50-cloud-init.conf 
+  460  sudo cat /etc/ssh/sshd_config.d/50-cloud-init.conf 
+  461  sudo nano /etc/ssh/sshd_config.d/50-cloud-init.conf 
+  462  last
+  463  journalctl
+  464  journalctl -u nginx
+  465  telnet -p 22 10.1.15.17
+  466  telnet --help
+  467  telnet 10.1.15.17 22
+  468  telnet 10.1.15.24 22
+  469  ds
+  470  telnet 10.1.15.24 22
+  471  nc --help
+  472  man nc
+  473  netstat tulnp
+  474  netstat -tulnp
+  475  ss
+  476  netstat -tulnp | grep tcp6
+  477  ss
+  478  last
+  479  netstat -tulnp | grep tcp6
+  480  history | grep sudo
+  481  exit
+  482  cat /.ssh/authorized_keys
+  483  ls /.ssh
+  484  sudo ls /.ssh
+  485  sudo ls .ssh
+  486  sudo cat .ssh/authorized_keys
+  487  adduser -h
+  488  addgroup -h
+  489  sudo chmod -h
+  490  sudo chmod --help
+  491  lshf
+  492  nslookup google.com
+  493  nslookup adc03-fp-by
+  494  nslookup adc-03-fp-by
+  495  ping --help
+  496  hostnamectl
+  497  netstat
+  498  netstat -tulnp
+  499  sudo netstat -tulnp
+  500  dig google.com
+  501  dig adc-03-fp-by
+  502  curl --help
+  503  curl google.com
+  504  wget --help
+  505  wget -r \https://dl2.mp3party.net/download/9849293
+  506  ls
+  507  ls -la dl2.mp3party.net
+  508  file dl2.mp3party.net
+  509  cd dl2.mp3party.net
+  510  ls
+  511  cd ddownload
+  512  cd download
+  513  ls
+  514  file 9849293
+  515  nano 9849293
+  516  cd ~
+  517  ufw
+  518  ufw --enable
+  519  ufw enable
+  520  sudo ufw enable
+  521  sudo ufw allow ssh
+  522  sudo ufw rules
+  523  sudo ufw status
+  524  sudo ufw status verbose
+  525  sudo ufw enable
+  526  sudo ufw status verbose
+  527  iptables
+  528  iptables --help
+  529  iptables -L -v -n
+  530  iptables -L -v -nsudo
+  531  sudo iptables -L -v -n
+  532  fail2ban
+  533  sudo apt search fail2ban
+  534  sudo apt install fail2ban
+  535  fail2ban --help
+  536  sudo fail2ban --help
+  537  fail2ban-client ping
+  538  sudo fail2ban-client ping
+  539  sudo fail2ban-client --help
+  540  sudo fail2ban-client status
+  541  sudo fail2ban-client status sshd
+  542  sudo nano /etc/fail2ban/jail.local
+  543  tracceroute adc-03-fp-by
+  544  traceroute adc-03-fp-by
+  545  sudo nmap -A 10.1.15.3
+  546  sudo install nmap
+  547  sudo apt install nmap
+  548  sudo nmap -A 10.1.15.3
+  549  sudo nmap -A adc-03-fp-by
+  550  ifconfig
+  551  sudo nmap -sn 10.1.15.0/24
+  552  ssh admin@10.1.15.30
+  553  ssh admin@10.1.15.17
+  554  sudo nmap -A 10.1.15.17
+  555  sudo nmap -D 10.1.15.17, 10.1.10.2,ME -A -sV 10.1.15.17
+  556  sudo nmap -D 10.1.15.18,10.1.10.2,ME -A -sV 10.1.15.17
+  557  sudo nmap --script vuln 10.1.15.20
+  558  sudo nmap -sV --script vulners 10.1.15.17
+  559  sudo nmap -sV --script vulners 10.1.15.20
+  560  ping 10.1.15.17
+  561  arp -h
+  562  arp 10.1.15.17
+  563  nc -v 10.1.15.17
+  564  nc -v 10.1.15.17 22
+  565  nc -v 127.0.0.0 443
+  566  nc -l -p 4444
+  567  nc -l -s 0.0.0.0 -p 4444
+  568  sudo ufw allow 4444/tcp
+  569  nc -l -s 0.0.0.0 -p 4444
+  570  nc -l -p 4444
+  571  telnet localhost 4444
+  572  telnet 10.1.15.20 22
+  573  cd history
+  574  ls
+  575  git --help
+  576  git checkout network_analysis
+  577  git branch network_analysis
+  578  git branch 
+  579  git checkout network_analysis 
+  580  history > network_and_analysis.txt
